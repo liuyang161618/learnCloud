@@ -15,10 +15,8 @@ import javax.annotation.Resource;
 @RestController
 @Slf4j
 public class PaymentController {
-
     @Value("${server.port}")
     private String serverPort;
-
     @Resource
     private PaymentService paymentService;
 
